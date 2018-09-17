@@ -9,13 +9,14 @@ public class Sample2 extends Application {
         launch(args);
     }
     
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage)throws Exception {
         BorderPane bp = new BorderPane();
         
         Scene sc = new Scene(bp, 300, 200);
         
         stage.setScene(sc);
         stage.setTitle("サンプル");
+        stage.show();
     }
 }
 
